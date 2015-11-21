@@ -8,8 +8,8 @@ public class ItemModel {
     String buyer;
     boolean value; //True means checked and False means unchecked
 
-    ItemModel(String s, String g, String b, boolean v){
-        title=s;
+    ItemModel(String t, String g, String b, boolean v){
+        title=t;
         group=g;
         buyer=b;
         value = v;
@@ -32,8 +32,8 @@ public class ItemModel {
     }
 
     //Setter methods. Would not be public for a real application. Just for our test.
-    public void setTitle(String n){
-        title=n;
+    public void setTitle(String t){
+        title=t;
     }
 
     public void setGroup(String g){
