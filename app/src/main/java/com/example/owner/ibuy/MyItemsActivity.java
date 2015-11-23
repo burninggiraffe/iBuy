@@ -15,7 +15,7 @@ public class MyItemsActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.myitems); //must be the name of the layout you want to use
-        theListView = (ListView) findViewById(R.id.listView1);
+        theListView = (ListView) findViewById(R.id.myItemsList);
         itemList = new ItemModel[2];
         itemList[0] = new ItemModel("pizza", "office", "user", false);
         itemList[1] = new ItemModel("paperclips", "office", "Larry", true);
