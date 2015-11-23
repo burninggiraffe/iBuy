@@ -16,11 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main); //changed for testing purposes
     }
 
-    public void clickMyItems(View v) {
-        startActivity(new Intent(MainActivity.this, testClass.class));
-    }
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -44,4 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void clickMyItems(View v) {
+        startActivity(new Intent(MainActivity.this, MyItemsActivity.class));
+    }
+
 }
