@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickMyItems(View v) {
-        startActivity(new Intent(MainActivity.this, MyItemsActivity.class));
+        startActivity(new Intent(MainActivity.this, testClass.class));
     }
 
 
