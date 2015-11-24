@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ListView;
 
 /**
@@ -16,6 +17,10 @@ public class AddPersonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.addperson); //must be the name of the layout you want to use
 
+
+    }
+
+    public void clickAddPersonToGroup(View v) {
 
     }
 }

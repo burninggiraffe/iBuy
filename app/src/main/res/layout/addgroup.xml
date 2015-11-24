@@ -20,7 +20,7 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
-        android:id="@+id/editText3"
+        android:id="@+id/groupNameHere"
         android:layout_below="@+id/textView8"
         android:layout_alignLeft="@+id/textView7"
         android:layout_alignStart="@+id/textView7" />
@@ -45,7 +45,7 @@
         android:layout_marginTop="42dp"
         android:textAlignment="center"
         android:textSize="25dp"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/groupNameHere"
         android:layout_alignLeft="@+id/textView8"
         android:layout_alignStart="@+id/textView8" />
 
@@ -53,7 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Person"
-        android:id="@+id/button8"
+        android:id="@+id/addPerson"
+        android:onClick="clickAddPersonToGroup"
         android:textSize="20dp"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
@@ -65,21 +66,19 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
-        android:id="@+id/editText4"
+        android:id="@+id/personNameHere"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/editText3"
-        android:layout_alignStart="@+id/editText3" />
+        android:layout_alignLeft="@+id/groupNameHere"
+        android:layout_alignStart="@+id/groupNameHere" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Group"
-        android:id="@+id/button9"
-        android:layout_below="@+id/button8"
-        android:layout_alignRight="@+id/textView7"
-        android:layout_alignEnd="@+id/textView7"
-        android:layout_marginTop="46dp"
-        android:layout_alignLeft="@+id/editText4"
-        android:layout_alignStart="@+id/editText4"
-        android:textSize="25dp" />
+        android:id="@+id/createGroup"
+        android:onClick="clickCreateGroup"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/personNameHere"
+        android:layout_alignStart="@+id/personNameHere" />
 </RelativeLayout>

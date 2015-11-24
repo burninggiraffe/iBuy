@@ -52,6 +52,7 @@
             android:layout_height="wrap_content"
             android:text="Add Shopping Group"
             android:id="@+id/button2"
+            android:onClick="clickAddGroup"
             android:textSize="18dp" />
     </LinearLayout>
 

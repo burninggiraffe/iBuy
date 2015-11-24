@@ -44,4 +44,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, MyItemsActivity.class));
     }
 
+    public void clickAddGroup(View v) {
+        startActivity(new Intent(MainActivity.this, AddGroupActivity.class));
+    }
+
 }

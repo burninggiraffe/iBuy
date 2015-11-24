@@ -28,7 +28,7 @@
         android:inputType="textPersonName"
         android:text="Item "
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/enterItem"
         android:layout_marginTop="69dp"
         android:width="250dp"
         android:layout_below="@+id/textView6"
@@ -38,7 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="add"
-        android:id="@+id/button7"
+        android:id="@+id/addItem"
+        android:onClick="clickAddItemToGroup"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="25dp" />
@@ -49,11 +50,11 @@
         android:inputType="textPersonName"
         android:text="Person To Buy"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
+        android:id="@+id/assignPerson"
+        android:layout_below="@+id/enterItem"
+        android:layout_alignRight="@+id/enterItem"
+        android:layout_alignEnd="@+id/enterItem"
+        android:layout_alignLeft="@+id/enterItem"
+        android:layout_alignStart="@+id/enterItem" />
 
 </RelativeLayout>

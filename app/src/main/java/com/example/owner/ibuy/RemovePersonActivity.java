@@ -11,22 +11,17 @@ import android.widget.ListView;
 /**
  * Created by Owner on 11/23/2015.
  */
-public class AddGroupActivity extends AppCompatActivity {
+public class RemovePersonActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.addgroup); //must be the name of the layout you want to use
+        setContentView(R.layout.removeperson); //must be the name of the layout you want to use
 
 
     }
 
-    public void clickAddPersonToGroup(View v) {
+    public void clickRemovePerson(View v) {
 
     }
-
-    public void clickCreateGroup() {
-
-    }
-
 }

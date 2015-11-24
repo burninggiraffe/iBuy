@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ListView;
 
 
@@ -17,6 +18,10 @@ public class AddItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.additem); //must be the name of the layout you want to use
 
+
+    }
+
+    public void clickAddItemToGroup() {
 
     }
 
